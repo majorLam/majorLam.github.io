@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>胡为me来哉</title>
+        <link>http://example.com</link>
+        <description></description>
+        <language>en</language>
+        <pubDate>Wed, 09 Aug 2023 15:57:59 +0800</pubDate>
+        <lastBuildDate>Wed, 09 Aug 2023 15:57:59 +0800</lastBuildDate>
+        <category>文章内容标签</category>
+        <item>
+            <guid isPermalink="true">http://example.com/2023/08/09/hello-world/</guid>
+            <title>Hello World</title>
+            <link>http://example.com/2023/08/09/hello-world/</link>
+            <pubDate>Wed, 09 Aug 2023 15:57:59 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;Welcome to &lt;a href=&#34;https://hexo.io/&#34;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&#34;https://hexo.io/docs/&#34;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&#34;https://hexo.io/docs/troubleshooting.html&#34;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&#34;https://github.com/hexojs/hexo/issues&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;hello-world.assets/image-20230809205155630.png&#34; alt=&#34;image-20230809205155630&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;create-a-new-post&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#create-a-new-post&#34;&gt;#&lt;/a&gt; Create a new post&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo new &lt;span class=&#34;string&#34;&gt;&amp;quot;My New Post&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/writing.html&#34;&gt;Writing&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;run-server&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#run-server&#34;&gt;#&lt;/a&gt; Run server&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/server.html&#34;&gt;Server&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;generate-static-files&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#generate-static-files&#34;&gt;#&lt;/a&gt; Generate static files&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/generating.html&#34;&gt;Generating&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;deploy-to-remote-sites&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#deploy-to-remote-sites&#34;&gt;#&lt;/a&gt; Deploy to remote sites&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/one-command-deployment.html&#34;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/2023/08/08/%E8%BF%99%E4%B8%80%E7%AF%87%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</guid>
+            <title>这一篇测试文章</title>
+            <link>http://example.com/2023/08/08/%E8%BF%99%E4%B8%80%E7%AF%87%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</link>
+            <category>文章内容标签</category>
+            <pubDate>Tue, 08 Aug 2023 11:04:13 +0800</pubDate>
+            <description><![CDATA[ &lt;blockquote&gt;
+&lt;p&gt;555&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;select-eemployee_id-edepartment_id&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#select-eemployee_id-edepartment_id&#34;&gt;#&lt;/a&gt; SELECT E.EMPLOYEE_ID, E.DEPARTMENT_ID&lt;/h1&gt;
+&lt;p&gt;&lt;font color=orange&gt;FROM  EMPLOYEES E, DEPARTMENTS D&lt;/font&gt;&lt;br&gt;
+WHERE E.“DEPARTMENT_ID”=D.“DEPARTMENT_ID”;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;desc EMPLOYEES；&lt;br&gt;
+SELECT * FROM EMPLOYEES;&lt;br&gt;
+SELECT * FROM DEPARTMENTS;&lt;br&gt;
+SELECT *FROM EMPLOYEES;&lt;/p&gt;
+&lt;p&gt;– SQL92 右外连接 ------------------------------------&lt;br&gt;
+SELECT EMPLOYEE_ID, DEPARTMENT_NAME&lt;br&gt;
+FROM  EMPLOYEES E, DEPARTMENTS D&lt;br&gt;
+WHERE E.“DEPARTMENT_ID”(+)=D.“DEPARTMENT_ID”;&lt;/p&gt;
+&lt;p&gt;– --SQL99 左外连接 ------------------------------------&lt;br&gt;
+SELECT EMPLOYEE_ID,DEPARTMENT_NAME&lt;br&gt;
+from EMPLOYEES e  left outer  join DEPARTMENTS d&lt;br&gt;
+on e.DEPARTMENT_ID=d.DEPARTMENT_ID;&lt;/p&gt;
+&lt;h1 id=&#34;plsql&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#plsql&#34;&gt;#&lt;/a&gt; PL/SQL&lt;/h1&gt;
+&lt;p&gt;procedural language SQL	过程化 SQL&lt;/p&gt;
+&lt;h1 id=&#34;函数&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#函数&#34;&gt;#&lt;/a&gt; 函数&lt;/h1&gt;
+&lt;h2 id=&#34;decode函数&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#decode函数&#34;&gt;#&lt;/a&gt; decode 函数&lt;/h2&gt;
+&lt;figure class=&#34;highlight sql&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;decode (条件，&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        值&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;，返回值&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;，&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        值&lt;span class=&#34;number&#34;&gt;2&lt;/span&gt;，返回值&lt;span class=&#34;number&#34;&gt;2&lt;/span&gt;，&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;       ......&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;       值n,返回值n，&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;       缺省值);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;该函数的含义如下：&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;IF 条件&lt;span class=&#34;operator&#34;&gt;=&lt;/span&gt;值&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;THEN&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;　　　　&lt;span class=&#34;keyword&#34;&gt;RETURN&lt;/span&gt;(翻译值&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;ELSIF 条件&lt;span class=&#34;operator&#34;&gt;=&lt;/span&gt;值&lt;span class=&#34;number&#34;&gt;2&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;THEN&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;　　　　&lt;span class=&#34;keyword&#34;&gt;RETURN&lt;/span&gt;(翻译值&lt;span class=&#34;number&#34;&gt;2&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;　　　　......&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;ELSIF 条件&lt;span class=&#34;operator&#34;&gt;=&lt;/span&gt;值n &lt;span class=&#34;keyword&#34;&gt;THEN&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;　　　　&lt;span class=&#34;keyword&#34;&gt;RETURN&lt;/span&gt;(翻译值n)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;ELSE&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;　　　　&lt;span class=&#34;keyword&#34;&gt;RETURN&lt;/span&gt;(缺省值)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;END&lt;/span&gt; IF&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;decode (条件，值 1, 返回值 1, 值 2, 返回值 2,… 值 n, 返回值 n, 缺省值)&lt;/p&gt;
+&lt;figure class=&#34;highlight sql&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;select&lt;/span&gt; decode(&lt;span class=&#34;number&#34;&gt;100&lt;/span&gt;,&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;,&lt;span class=&#34;number&#34;&gt;2&lt;/span&gt;,&lt;span class=&#34;number&#34;&gt;3&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;--100不等于1，2，3，结果返回3&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;blockquote&gt;
+&lt;p&gt;decode (字段或字段的运算，值 1，值 2，值 3）&lt;br&gt;
+这个函数运行的结果是，当字段或字段的运算的值等于值 1 时，该函数返回值 2，否则返回值 3&lt;br&gt;
+ 当然值 1，值 2，值 3 也可以是表达式，这个函数使得某些 sql 语句简单了许多&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;使用方法：&lt;br&gt;
+1、&lt;strong&gt;比较大小&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight sql&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;select&lt;/span&gt; decode(sign(变量&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;operator&#34;&gt;-&lt;/span&gt;变量&lt;span class=&#34;number&#34;&gt;2&lt;/span&gt;),&lt;span class=&#34;number&#34;&gt;-1&lt;/span&gt;,变量&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;,变量&lt;span class=&#34;number&#34;&gt;2&lt;/span&gt;) &lt;span class=&#34;keyword&#34;&gt;from&lt;/span&gt; dual;&lt;span class=&#34;comment&#34;&gt;--取最小值&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;select&lt;/span&gt; decode (sign(&lt;span class=&#34;number&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;number&#34;&gt;-20&lt;/span&gt;),&lt;span class=&#34;number&#34;&gt;-1&lt;/span&gt;,&lt;span class=&#34;number&#34;&gt;10&lt;/span&gt;,&lt;span class=&#34;number&#34;&gt;20&lt;/span&gt;) &lt;span class=&#34;keyword&#34;&gt;from&lt;/span&gt; dual;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;blockquote&gt;
+&lt;p&gt;sign () 函数根据某个值是 0、正数还是负数，分别返回 0、1、-1&lt;br&gt;
+ 例如：&lt;br&gt;
+变量 1=10，变量 2=20&lt;br&gt;
+ 则 sign (变量 1 - 变量 2) 返回 - 1，decode 解码结果为 “变量 1”，达到了取较小值的目的。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;2、此函数用在 SQL 语句中，功能介绍如下：&lt;br&gt;
+Decode 函数与一系列嵌套的 IF-THEN-ELSE 语句相似。base_exp 与 compare1,compare2 等等依次进行比较。如果 base_exp 和 第 i 个 compare 项匹配，就返回第 i 个对应的 value 。如果 base_exp 与任何的 compare 值都不匹配，则返回 default。每个 compare 值顺次求值，如果发现一个匹配，则剩下的 compare 值（如果还有的话）就都不再求值。一个为 NULL 的 base_exp 被认为和 NULL compare 值等价。如果需要的话，每一个 compare 值都被转换成和第一个 compare 值相同的数据类型，这个数据类型也是返回值的类型。&lt;/p&gt;
+&lt;p&gt;Decode 函数在实际开发中非常的有用&lt;/p&gt;
+&lt;p&gt;结合 Lpad 函数，如何使主键的值自动加 1 并在前面补 0&lt;br&gt;
+select LPAD (decode (count (记录编号),0,1,max (to_number (记录编号)+1)),14,‘0’) 记录编号 from tetdmis&lt;/p&gt;
+&lt;p&gt;eg:&lt;br&gt;
+select decode(dir,1,0,1) from a1_interval&lt;br&gt;
+dir 的值是 1 变为 0，是 0 则变为 1&lt;/p&gt;
+&lt;p&gt;比如我要查询某班男生和女生的数量分别是多少？&lt;br&gt;
+ 通常我们这么写:&lt;br&gt;
+select count(&lt;em&gt;) from 表 where 性别 ＝ 男；&lt;br&gt;
+select count(&lt;/em&gt;) from 表 where 性别 ＝ 女；&lt;br&gt;
+要想显示到一起还要 union 一下，太麻烦了&lt;br&gt;
+用 decode 呢，只需要一句话&lt;br&gt;
+ select decode (性别，男，1，0），decode (性别，女，1，0） from 表&lt;/p&gt;
+&lt;p&gt;3，order by 对字符列进行特定的排序&lt;br&gt;
+大家还可以在 Order by 中使用 Decode。&lt;br&gt;
+例：表 table_subject，有 subject_name 列。要求按照：语、数、外的顺序进行排序。这时，就可以非常轻松的使用 Decode 完成要求了。&lt;br&gt;
+select * from table_subject order by decode (subject_name, ‘语文’, 1, ‘数学’, 2, , ‘外语’,3)&lt;/p&gt;
+&lt;h1 id=&#34;ramn&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#ramn&#34;&gt;#&lt;/a&gt; ramn&lt;/h1&gt;
+&lt;p&gt;cmd 进入 &amp;quot;rman target/&amp;quot;&lt;/p&gt;
+&lt;p&gt;归档模式&lt;/p&gt;
+&lt;p&gt;archive log list;&lt;/p&gt;
+&lt;p&gt;热备份：数据库依旧在运行&lt;/p&gt;
+&lt;h1 id=&#34;指令&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#指令&#34;&gt;#&lt;/a&gt; 指令&lt;/h1&gt;
+&lt;p&gt;1. 创建相同的表与数据（复制表）&lt;/p&gt;
+&lt;figure class=&#34;highlight sql&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;create&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;table&lt;/span&gt; &lt;span class=&#34;number&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;select&lt;/span&gt; &lt;span class=&#34;operator&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;keyword&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;number&#34;&gt;2&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h1 id=&#34;案例&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#案例&#34;&gt;#&lt;/a&gt; 案例&lt;/h1&gt;
+&lt;h2 id=&#34;1模拟数据库非正常宕机实例故障&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1模拟数据库非正常宕机实例故障&#34;&gt;#&lt;/a&gt; 1. 模拟数据库非正常宕机，实例故障&lt;/h2&gt;
+&lt;p&gt;1 执行&lt;font color=orange&gt;shutdown abort&lt;/font&gt;指令前&lt;/p&gt;
+&lt;p&gt;2  查看 alert_$SID.log&lt;/p&gt;
+&lt;p&gt;会找到 crash recovery  字样，如下所示&lt;/p&gt;
+&lt;p&gt;Beginning crash recovery of 1 threads&lt;/p&gt;
+&lt;p&gt;parallel recovery started with 3 processes&lt;/p&gt;
+&lt;p&gt;Started redo scan&lt;/p&gt;
+&lt;p&gt;Completed redo scan&lt;/p&gt;
+&lt;p&gt;read 140 KB redo, 53 data blocks need recovery&lt;/p&gt;
+&lt;p&gt;Started redo application at&lt;/p&gt;
+&lt;p&gt;Thread 1: logseq 15, block 5469&lt;/p&gt;
+&lt;p&gt;Recovery of Online Redo Log: Thread 1 Group 3 Seq 15 Reading mem 0&lt;/p&gt;
+&lt;p&gt;Mem# 0: D:\APP\ORADATA\ORCL9\REDO03.LOG&lt;/p&gt;
+&lt;p&gt;Completed redo application of 0.09MB&lt;/p&gt;
+&lt;p&gt;Completed crash recovery at&lt;/p&gt;
+&lt;p&gt;在数据库当前版本，abort 选项来停止实例， 实例的 smon 后台进程会自己进行修复。&lt;/p&gt;
+&lt;h2 id=&#34;2归档模式archive与非归档模式noarchive的转换&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2归档模式archive与非归档模式noarchive的转换&#34;&gt;#&lt;/a&gt; 2. 归档模式（archive）与非归档模式（noarchive）的转换&lt;/h2&gt;
+&lt;figure class=&#34;highlight sql&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;shutdown immediate&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;startup mount&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;alter&lt;/span&gt; database archivelog;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;archive log &lt;span class=&#34;keyword&#34;&gt;start&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;alter&lt;/span&gt; database &lt;span class=&#34;keyword&#34;&gt;open&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;archive log list;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;3归档模式下在线联机备份表空间-数据丢失后恢复表空间&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#3归档模式下在线联机备份表空间-数据丢失后恢复表空间&#34;&gt;#&lt;/a&gt; 3. 归档模式下，在线联机备份表空间， 数据丢失后恢复表空间&lt;/h2&gt;
+&lt;p&gt;①首先保证为存档模式&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;%E8%BF%99%E4%B8%80%E7%AF%87%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0.assets/image-20230223220638349.png&#34; alt=&#34;image-20230223220638349&#34;&gt;&lt;/p&gt;
+&lt;p&gt;②&lt;/p&gt;
+&lt;figure class=&#34;highlight sql&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;sql&lt;/span&gt;&lt;span class=&#34;operator&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;keyword&#34;&gt;alter&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;table&lt;/span&gt;space users &lt;span class=&#34;keyword&#34;&gt;begin&lt;/span&gt; backup;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;③将【user1.dbf】文件备份到其他的盘；&lt;/p&gt;
+&lt;p&gt;④&lt;/p&gt;
+&lt;figure class=&#34;highlight sql&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;sql&lt;/span&gt;&lt;span class=&#34;operator&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;keyword&#34;&gt;alter&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;table&lt;/span&gt;space users &lt;span class=&#34;keyword&#34;&gt;end&lt;/span&gt; backup;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;⑤执行一些 DML 操作 使用表空间 users&lt;/p&gt;
+&lt;figure class=&#34;highlight sql&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;create&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;table&lt;/span&gt; me(id number);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;insert&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;into&lt;/span&gt; me &lt;span class=&#34;keyword&#34;&gt;values&lt;/span&gt;(&lt;span class=&#34;number&#34;&gt;2023&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;⑥ 删除 users.dbf  模拟数据丢失，介质故障&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如果提示文件被占用， 则执行 shutdown  immediate  命令&lt;/p&gt;
+&lt;p&gt;Linux 环境下可以直接 rm 命令删除&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;⑦尝试启动数据库， 会遇到错误提示&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;%E8%BF%99%E4%B8%80%E7%AF%87%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0.assets/image-20230223222045926.png&#34; alt=&#34;image-20230223222045926&#34;&gt;&lt;/p&gt;
+&lt;p&gt;⑧执行 还原操作：  将步骤 2 备份文件手工拷贝回源目录；&lt;/p&gt;
+&lt;p&gt;* 因为表空间和数据文件存在 1-n 对应关系，数据文件序号可以从数据字典 v$datafile 查询 file#&lt;/p&gt;
+&lt;p&gt;⑨执行 恢复操作：&lt;/p&gt;
+&lt;figure class=&#34;highlight sql&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;SQL&lt;/span&gt; &lt;span class=&#34;operator&#34;&gt;&amp;gt;&lt;/span&gt; recover  datafile  &lt;span class=&#34;operator&#34;&gt;&amp;lt;&lt;/span&gt;file#&lt;span class=&#34;operator&#34;&gt;&amp;gt;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;SQL&lt;/span&gt;&lt;span class=&#34;operator&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;alter&lt;/span&gt; database &lt;span class=&#34;keyword&#34;&gt;open&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;4-用rman-执行不完全恢复&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#4-用rman-执行不完全恢复&#34;&gt;#&lt;/a&gt; 4. 用 RMAN 执行不完全恢复&lt;/h2&gt;
+&lt;p&gt;1  理解不完全恢复：  就是恢复到指定的时间点， 可以是 SCN ，可以是 timestamp&lt;/p&gt;
+&lt;p&gt;2  用 RMAN 执行一次全备份  backup database plus archivelog;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;%E8%BF%99%E4%B8%80%E7%AF%87%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0.assets/wps1.jpg&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;
+&lt;p&gt;3  新建一个表 bkp 使用 users 表空间&lt;/p&gt;
+&lt;p&gt;4  在表 bkp 中插入数据， 并且提交&lt;/p&gt;
+&lt;p&gt;5  select curent_scn from v$database;  — 生产环境中很可能无法时时刻刻记录 scn&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;%E8%BF%99%E4%B8%80%E7%AF%87%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0.assets/wps2.jpg&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;
+&lt;p&gt;6  truncate 表 bkp&lt;/p&gt;
+&lt;p&gt;7  建立一个新表 test 同样使用 users 表空间&lt;/p&gt;
+&lt;p&gt;8  在表 test 中插入数据， 提交.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;%E8%BF%99%E4%B8%80%E7%AF%87%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0.assets/wps3.jpg&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;
+&lt;p&gt;9  记录 archive log list 的 日志序号  — 理解 resetlogs 是什么意思&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;%E8%BF%99%E4%B8%80%E7%AF%87%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0.assets/wps4.jpg&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;
+&lt;p&gt;10  此时执行 RMAN 不完全恢复脚本  ，其中 SCN  — 步骤 5 获得&lt;/p&gt;
+&lt;figure class=&#34;highlight sql&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;run&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;shutdown immediate&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;startup mount&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;set&lt;/span&gt; until scn &lt;span class=&#34;number&#34;&gt;1456308&lt;/span&gt;; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;restore database;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;recover database;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;sql&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;#x27;alter database open resetlogs&amp;#x27;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;img src=&#34;%E8%BF%99%E4%B8%80%E7%AF%87%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0.assets/wps5.jpg&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;
+&lt;p&gt;11   查询表，bkp, test 看看哪些数据被恢复 – 理解不完全恢复的概念&lt;/p&gt;
+&lt;h1 id=&#34;具体问题的解决&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#具体问题的解决&#34;&gt;#&lt;/a&gt; 具体问题的解决&lt;/h1&gt;
+&lt;h2 id=&#34;查看当前oracle-版本&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#查看当前oracle-版本&#34;&gt;#&lt;/a&gt; 查看当前 oracle 版本:&lt;/h2&gt;
+&lt;figure class=&#34;highlight sql&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;select&lt;/span&gt; &lt;span class=&#34;operator&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;keyword&#34;&gt;from&lt;/span&gt; v$version;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;blockquote&gt;
+&lt;p&gt;mysql 为&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;select version();&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;查看回收站&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#查看回收站&#34;&gt;#&lt;/a&gt; 查看回收站:&lt;/h2&gt;
+&lt;figure class=&#34;highlight sql&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;show&lt;/span&gt; recyclebin;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;回收站当前状态&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#回收站当前状态&#34;&gt;#&lt;/a&gt; 回收站当前状态:&lt;/h2&gt;
+&lt;figure class=&#34;highlight sql&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;select&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;value&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;from&lt;/span&gt; v$&lt;span class=&#34;keyword&#34;&gt;parameter&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;where&lt;/span&gt; name &lt;span class=&#34;operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;string&#34;&gt;&amp;#x27;recyclebin&amp;#x27;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;删除table不进入recycle的方法&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#删除table不进入recycle的方法&#34;&gt;#&lt;/a&gt; 删除 Table 不进入 Recycle 的方法：&lt;/h2&gt;
+&lt;figure class=&#34;highlight sql&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;drop&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;table&lt;/span&gt; tableName purge;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;blockquote&gt;
+&lt;p&gt;❗在 sys 用户下删除的表不进入回收站；&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;%E8%BF%99%E4%B8%80%E7%AF%87%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0.assets/image-20230223151804528.png&#34; alt=&#34;image-20230223151804528&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;serror&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#serror&#34;&gt;#&lt;/a&gt; serror&lt;/h1&gt;
+&lt;h2 id=&#34;ora-01109数据库未打开未解决&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#ora-01109数据库未打开未解决&#34;&gt;#&lt;/a&gt; ORA-01109：数据库未打开 (未解决)&lt;/h2&gt;
+&lt;p&gt;直接执行这个语句 **&lt;font color=orange size=6&gt;alter database open&lt;/font&gt;** 即可。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;%E8%BF%99%E4%B8%80%E7%AF%87%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0.assets/image-20230222164423197.png&#34; alt=&#34;image-20230222164423197&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ora-01918-用户-scott-不存在&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#ora-01918-用户-scott-不存在&#34;&gt;#&lt;/a&gt; ORA-01918: 用户 ‘SCOTT’ 不存在&lt;/h2&gt;
+&lt;p&gt;①找到安装路径下的 scott.sql 文件（路径根据自己安装的情况查找，默认为：&lt;/p&gt;
+&lt;p&gt;【安装盘 /oracle\WINDOWS.X64_193000_db_home\rdbms\admin\scott.sql】）&lt;/p&gt;
+&lt;figure class=&#34;highlight sql&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;A:\SoftwareProgram\oracle\WINDOWS.X64_193000_db_home\rdbms\admin\scott.sql&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;②运行&lt;/p&gt;
+&lt;figure class=&#34;highlight sql&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;sql&lt;/span&gt;&lt;span class=&#34;operator&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;variable&#34;&gt;@A&lt;/span&gt;:\SoftwareProgram\oracle\WINDOWS.X64_193000_db_home\rdbms\admin\scott.sql&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;③解锁 Scott 用户&lt;/p&gt;
+&lt;figure class=&#34;highlight sql&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;alter&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;user&lt;/span&gt; scott account unlock;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;④设置 Scott 用户密码为 tiger&lt;/p&gt;
+&lt;figure class=&#34;highlight sql&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;alter&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;user&lt;/span&gt; scott identified &lt;span class=&#34;keyword&#34;&gt;by&lt;/span&gt; tiger;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>
