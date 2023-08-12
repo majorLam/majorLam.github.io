@@ -11,7 +11,7 @@
   
   <title>
     
-      archive_a: 2023/8 
+      数据库分析与涉及 选择 
       
       
       |
@@ -109,50 +109,247 @@
 
 
       <div class="flex-container">
-        <!-- 归档页，展示本站所有文章，按照年份降序归类，url形式：https://yoursite/archives/ -->
+        <!-- 文章详情页，展示文章具体内容，url形式：https://yoursite/文章标题/ -->
+<!-- 同时为「标签tag」，「朋友friend」，「分类categories」，「关于about」页面的承载页面，具体展示取决于page.type -->
 
-<!-- last: 按年份把文章分组，当前遍历到的年份 -->
-<!-- now: 当前遍历到的文章的发布年份 -->
 
-<div class="container archives">
-  <div class="post-list">
-    
-        <!-- 后续文章的发布年份呈现 -->
-        <div class="content-title">
-          <h2>
-            <span>2023</span>
-          </h2>
+  <!-- LaTex Display -->
+
+  
+    <script async type="text/javascript" src="/plugins/mathjax/tex-chtml.js"></script>
+  
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      }
+    }
+  </script>
+
+
+
+
+
+  <!-- clipboard -->
+
+  
+    <script async type="text/javascript" src="/plugins/clipboard.min.js"></script>
+  
+  
+<script src="/js/codeCopy.js"></script>
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  <!-- 文章内容页 url形式：https://yoursite/文章标题/ -->
+  <div class="container post-details" id="post-details">
+    <div class="post-content">
+      <div class="post-title">数据库分析与涉及 选择</div>
+      <div class="post-attach">
+        <span class="post-pubtime">
+          <i class="iconfont icon-updatetime mr-10" title="Update time"></i>
+          2023-08-12 17:27:33
+        </span>
+        
+              <span class="post-tags">
+                <i class="iconfont icon-tags mr-10" title="Tags"></i>
+                
+                <span class="span--tag mr-8">
+                  <a href="/tags/NCRE-%E6%95%B0%E6%8D%AE%E5%BA%93/" title="NCRE 数据库">
+                    #NCRE 数据库
+                  </a>
+                </span>
+                
+              </span>
+          
+      </div>
+      <div class="markdown-body">
+        <h1 id="数据库分析与涉及"><a class="markdownIt-Anchor" href="#数据库分析与涉及">#</a> 数据库分析与涉及</h1>
+<ol>
+<li>
+<p><strong>事务规范</strong>包括了</p>
+<blockquote>
+<p>事务<font color =orange>名称</font>、事务<font color =orange>描述</font>、事务所访问的<font color =orange>数据项</font>、事务<font color =orange>用户</font>。</p>
+</blockquote>
+</li>
+<li>
+<p><strong>事务规范</strong>可以用来表示<strong>数据库应用系统</strong>的<font color =orange>数据处理需求</font>。</p>
+</li>
+<li>
+<p>** 数据库应用系统的<font color =red>实施工作</font>** 包括:</p>
+<blockquote>
+<p><font color =orange>创建</font>数据库、<font color =orange>装载数据</font>、<font color =orange>编写与调试应用程序</font>、数据库<font color =orange>试运行</font></p>
+</blockquote>
+</li>
+<li>
+<p>数据库应用系统 (DBAS)<font color=red>实现与部署</font>内容包括:</p>
+<blockquote>
+<p>①建立数据库结构；②数据加载；③事务和应用程序的编码及测试；④系统集成、测试与试运行；⑤系统部署。</p>
+</blockquote>
+</li>
+<li>
+<p>从<font color=red>功能角度</font>   <font color=red>数据库应用系统</font>可以划分为四个层次来实现：</p>
+<blockquote>
+<p>①<font color =orange>表示层</font>：用于显示数据和接收用户输入的数据。（一般为 Windows 应用程序或 Web 应用程序)。<br>
+②<font color =orange>业务逻辑</font>层：是表示层和数据访问层之间的桥梁，主要负责数据的传递和处理。<br>
+③<font color =orange>数据访问</font>层：负责与 DBMS 系统进行交互，提取或存入应用系统所需的数据。<br>
+④<font color =orange>数据持久层</font>：负责保存和管理应用系统数据。（根据事务–基本表交叉引用矩阵来调整数据文件的组织结构）。</p>
+</blockquote>
+</li>
+<li>
+<p>索引使用的原则：</p>
+<blockquote>
+<p>1、经常<font color=orange>在查询中作为条件被使用的列</font>；<br>
+2、频繁进行<font color=orange>排序 group by</font>或<font color=orange>分组 order by</font>操作的列；<br>
+3、一个列的值域很大；@如果待排序的列有多个，应在这些列上建立复合索引。</p>
+</blockquote>
+</li>
+<li>
+<p>对于<font color =red>关系模式</font>进行<font color =red>去规范化处理</font>，这属于数据库结构涉及中的<font color=orange>物理结构设计</font>。</p>
+<p><code>解析：通过数据库概念设计和逻辑设计已经得到了规范化的关系模式。尽管关系数据库模式是按照关系数据库管理系统支持的结构进行数据的描述和组织的，然而，这些符号表示并不能解释如何处理和存储数据。数据库物理设计的目的是将数据的逻辑描述转换为实现技术规范，其目标是设计数据存储方案，以便提供足够好的性能并确保数据库数据的完整性、安全性和可恢复性。</code></p>
+</li>
+<li>
+<p><font color=red>事务概要设计</font>内容包括：</p>
+<blockquote>
+<p>事务<font color=orange>名称</font>、事务所访问的<font color=orange>关系表及关系属性</font>、事务<font color=orange>处理逻辑</font>、事务<font color=orange>用户</font>（指使用、启动、调用该事务的软件模块或系统）。</p>
+</blockquote>
+</li>
+<li>
+<p><font color=red>降低事务隔离级别</font>可以:</p>
+<blockquote>
+<p>提高<font color=orange>事务的吞吐量</font>，</p>
+<p>提高<font color=orange>活锁的可能性</font>，</p>
+<p>降低发生<font color=orange>死锁</font>、发生<font color=orange>阻塞</font>的可能性。</p>
+</blockquote>
+</li>
+<li>
+<p><font color=red>分区表</font>涉及到数据库的<font color=orange>物理结构</font>。</p>
+<p><code>解析：为改善对这类大数据量基本表的访问性能，可将基本表划分为若干分区，各分区数据分别存储在不同位置的磁盘上，并可采用不同的物理组织方式。分区表是从物理上将一个大表分成几个小表，但从逻辑上来看还是一个大表。 </code></p>
+</li>
+<li>
+<p><font color =red>合并表</font>属于数据库的<font color=orange>物理结构调整</font>。</p>
+</li>
+<li>
+<p><strong>完整性约束</strong>按照其<strong>约束条件</strong>的作用对象可以划分为不同级别。</p>
+<p>已知关系表：职工 (职工号，职工名，经理职工号，工资)，如果要求<font color=red>职工的工资不能高于其经理的工资</font>，则这个约束的完整性级别属于<font color=orange>关系级完整性约束</font>。</p>
+<p><code>完整性约束条件的作用对象分为列、元组和关系三种级别，其中对列的约束主要指对其值类型、范围、精度、排序等的约束条件。对元组的约束主要指对记录中各个属性之间的联系的约束条件。对关系的约束是指对若干纪录间、关系集合上以及关系之间联系的约束条件。</code></p>
+</li>
+<li>
+<p>已知关系 R (A, B, C)，其<font color =blue>主码是属性 A</font>。下列 SQL 语句中定义了一个唯一辅索引的是  create unique index idx2 on R (A)。</p>
+<blockquote>
+<p>解析：在数据文件的<font color=orange>非主属性上建立的索引称为辅索引</font>。</p>
+</blockquote>
+</li>
+<li>
+<p>IDEFO 图：<strong>上控下机左入右出</strong>。（控制，机制，输入，输出）</p>
+<p>左边的输入箭头表示完成活动需要的数据；</p>
+<p>矩形框上方的控制箭头描述了影响这个活动执行的事件或约束条件；</p>
+<p>右边的输出箭头说明由活动产生的结果及信息；</p>
+<p>下方进入的机制箭头表示实施该活动的物理手段或完成活动需要的资源。</p>
+</li>
+<li>
+<p>在进行 DBAS 设计时，为了<font color=red>避免死锁</font>，可以考虑以下原则：<br>
+（1）按<font color=orange>同一顺序</font>访问资源。<br>
+（2）<font color=orange>避免</font>事务中的<font color=orange>用户交互</font>。<br>
+（3）采用<font color=orange>小事务模式</font>，尽量缩短事务的长度，减少占有锁的时间。<br>
+（4）尽量使用<font color=orange>记录级别</font>的锁（<font color=orange>行</font>锁），少用表级别的锁。<br>
+（5）使用<font color=orange>绑定连接</font>，使同一应用程序所打开的两个或多个连接可以相互合作。</p>
+</li>
+<li>
+<p>数据库应用系统的 **<font color=red>业务逻辑层</font>主要负责<font color =red>构件</font>的设计 **。</p>
+<blockquote>
+<p>1、一个构件或模块只负责完成一项任务，也就是<font color=orange>单一责任</font>原则。<br>
+2、各个构件均应具有独立的功能，并最大限度地减少与其他构件功能重叠。<br>
+3、构件之间的接口应尽量简单明确。<br>
+4、如果两个构件间的关系比较复杂，应考虑进一步进行模块划分。<br>
+5、如果构件过于复杂，可以考虑将其细分。</p>
+</blockquote>
+</li>
+<li>
+<p>提高数据的隔离性级别可以降低发生活锁的可能性。</p>
+<p><code>事务的隔离性是指多个并发事务同时访问一个数据库时，一个事物不应被另一个事物所干扰，即保证并发读取数据的正确性，降低发生数据不一致的可能性。</code></p>
+</li>
+</ol>
+<p>❗❗❗未完待续。。。</p>
+
+      </div>
+      
+        <div class="prev-or-next">
+          <div class="post-foot-next">
+            
+              <a href="/2023/08/09/hello-world/" target="_self">
+                <i class="iconfont icon-chevronleft"></i>
+                <span>Prev</span>
+              </a>
+            
+          </div>
+          <div class="post-attach">
+            <span class="post-pubtime">
+              <i class="iconfont icon-updatetime mr-10" title="Update time"></i>
+              2023-08-12 17:27:33
+            </span>
+            
+                  <span class="post-tags">
+                    <i class="iconfont icon-tags mr-10" title="Tags"></i>
+                    
+                    <span class="span--tag mr-8">
+                      <a href="/tags/NCRE-%E6%95%B0%E6%8D%AE%E5%BA%93/" title="NCRE 数据库">
+                        #NCRE 数据库
+                      </a>
+                    </span>
+                    
+                  </span>
+              
+          </div>
+          <div class="post-foot-prev">
+            
+          </div>
         </div>
       
-      <div class="post-item" title="数据库分析与涉及 选择">
-        <div class="time-m-d">08-12</div>
-        <div class="title">
-          <a href="/2023/08/12/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%88%86%E6%9E%90%E4%B8%8E%E6%B6%89%E5%8F%8A-%E9%80%89%E6%8B%A9/">
-            <span>数据库分析与涉及 选择</span>
-          </a>
-        </div>
-      </div>
+    </div>
     
-      <div class="post-item" title="Hello World">
-        <div class="time-m-d">08-09</div>
-        <div class="title">
-          <a href="/2023/08/09/hello-world/">
-            <span>Hello World</span>
-          </a>
-        </div>
-      </div>
+  <div id="btn-catalog" class="btn-catalog">
+    <i class="iconfont icon-catalog"></i>
+  </div>
+  <div class="post-catalog hidden" id="catalog">
+    <div class="title">Contents</div>
+    <div class="catalog-content">
+      
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E5%BA%93%E5%88%86%E6%9E%90%E4%B8%8E%E6%B6%89%E5%8F%8A"><span class="toc-text"> 数据库分析与涉及</span></a></li></ol>
+      
+    </div>
+  </div>
+
+  
+<script src="/js/catalog.js"></script>
+
+
+
+
     
-      <div class="post-item" title="这一篇测试文章">
-        <div class="time-m-d">08-08</div>
-        <div class="title">
-          <a href="/2023/08/08/%E8%BF%99%E4%B8%80%E7%AF%87%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/">
-            <span>这一篇测试文章</span>
-          </a>
-        </div>
+      <div class="comments-container">
+        
+
+
+
+
+
+
+
       </div>
     
   </div>
-</div>
+
 
         
 <div class="footer">
@@ -420,6 +617,24 @@
 
 
         
+  
+    <div class="share-icon tools-bar-item">
+      <a href="javascript: void(0)" id="share-icon">
+        <i class="iconfont iconshare"></i>
+      </a>
+      <div class="share-content hidden">
+        
+          <a class="share-item" href="https://twitter.com/intent/tweet?text=' + %E6%95%B0%E6%8D%AE%E5%BA%93%E5%88%86%E6%9E%90%E4%B8%8E%E6%B6%89%E5%8F%8A%20%E9%80%89%E6%8B%A9 + '&url=' + http%3A%2F%2Fexample.com%2F2023%2F08%2F12%2F%25E6%2595%25B0%25E6%258D%25AE%25E5%25BA%2593%25E5%2588%2586%25E6%259E%2590%25E4%25B8%258E%25E6%25B6%2589%25E5%258F%258A-%25E9%2580%2589%25E6%258B%25A9%2F + '" target="_blank" title="Twitter">
+            <i class="iconfont icon-twitter"></i>
+          </a>
+        
+        
+          <a class="share-item" href="https://www.facebook.com/sharer.php?u=http://example.com/2023/08/12/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%88%86%E6%9E%90%E4%B8%8E%E6%B6%89%E5%8F%8A-%E9%80%89%E6%8B%A9/" target="_blank" title="Facebook">
+            <i class="iconfont icon-facebooksquare"></i>
+          </a>
+        
+      </div>
+    </div>
   
   
 <script src="/js/shares.js"></script>
