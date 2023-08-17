@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>python脚本汇总</title>
+      <link href="/2023/08/17/python%E8%84%9A%E6%9C%AC%E6%B1%87%E6%80%BB/"/>
+      <url>/2023/08/17/python%E8%84%9A%E6%9C%AC%E6%B1%87%E6%80%BB/</url>
+      
+        <content type="html"><![CDATA[<center>言简意赅，此贴手写收集整理通用脚本方便日常，仅供参考。</center><h1 id="1查看电脑配置"><a class="markdownIt-Anchor" href="#1查看电脑配置">#</a> 1. 查看电脑配置</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> wmi</span><br><span class="line"><span class="keyword">def</span> <span class="title function_">System_spec</span>():</span><br><span class="line">    Pc = wmi.WMI()</span><br><span class="line">    os_info = Pc.Win32_OperatingSystem()[<span class="number">0</span>]</span><br><span class="line">    processor = Pc.Win32_Processor()[<span class="number">0</span>]</span><br><span class="line">    Gpu = Pc.Win32_VideoController()[<span class="number">0</span>]</span><br><span class="line">    os_name = os_info.Name.encode(<span class="string">&#x27;utf-8&#x27;</span>).split(<span class="string">b&#x27;|&#x27;</span>)[<span class="number">0</span>]</span><br><span class="line">    ram = <span class="built_in">float</span>(os_info.TotalVisibleMemorySize) / <span class="number">1048576</span></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&#x27;操作系统: <span class="subst">&#123;os_name&#125;</span>&#x27;</span>)</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&#x27;CPU: <span class="subst">&#123;processor.Name&#125;</span>&#x27;</span>)</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&#x27;内存: <span class="subst">&#123;ram&#125;</span> GB&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&#x27;显卡: <span class="subst">&#123;Gpu.Name&#125;</span>&#x27;</span>)</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;\n计算机信息如上 ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑&quot;</span>)</span><br><span class="line">System_spec()</span><br><span class="line"><span class="built_in">input</span>(<span class="string">&quot;按enter退出！&quot;</span>)</span><br></pre></td></tr></table></figure><p>❗❗❗未完待续。。。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>数据库分析与涉及 选择</title>
       <link href="/2023/08/12/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%88%86%E6%9E%90%E4%B8%8E%E6%B6%89%E5%8F%8A-%E9%80%89%E6%8B%A9/"/>
       <url>/2023/08/12/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%88%86%E6%9E%90%E4%B8%8E%E6%B6%89%E5%8F%8A-%E9%80%89%E6%8B%A9/</url>
