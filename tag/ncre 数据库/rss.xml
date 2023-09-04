@@ -11,9 +11,9 @@
         <category>NCRE 数据库</category>
         <category>文章内容标签</category>
         <item>
-            <guid isPermalink="true">http://example.com/2023/08/12/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%88%86%E6%9E%90%E4%B8%8E%E6%B6%89%E5%8F%8A-%E9%80%89%E6%8B%A9/</guid>
-            <title>数据库分析与涉及 选择</title>
-            <link>http://example.com/2023/08/12/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%88%86%E6%9E%90%E4%B8%8E%E6%B6%89%E5%8F%8A-%E9%80%89%E6%8B%A9/</link>
+            <guid isPermalink="true">http://example.com/2023/08/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%AD%89%E7%BA%A7%E4%B8%89%20%E6%95%B0%E6%8D%AE%E5%BA%93/</guid>
+            <title>计算机等级三 数据库</title>
+            <link>http://example.com/2023/08/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%AD%89%E7%BA%A7%E4%B8%89%20%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
             <category>NCRE 数据库</category>
             <pubDate>Sat, 12 Aug 2023 17:24:37 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;数据库分析与涉及&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#数据库分析与涉及&#34;&gt;#&lt;/a&gt; 数据库分析与涉及&lt;/h1&gt;
@@ -94,10 +94,15 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;IDEFO 图：&lt;strong&gt;上控下机左入右出&lt;/strong&gt;。（控制，机制，输入，输出）&lt;/p&gt;
-&lt;p&gt;左边的输入箭头表示完成活动需要的数据；&lt;/p&gt;
 &lt;p&gt;矩形框上方的控制箭头描述了影响这个活动执行的事件或约束条件；&lt;/p&gt;
-&lt;p&gt;右边的输出箭头说明由活动产生的结果及信息；&lt;/p&gt;
 &lt;p&gt;下方进入的机制箭头表示实施该活动的物理手段或完成活动需要的资源。&lt;/p&gt;
+&lt;p&gt;左边的输入箭头表示完成活动需要的数据；&lt;/p&gt;
+&lt;p&gt;右边的输出箭头说明由活动产生的结果及信息；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;【非标定型联系】不会产生【从属实体集】。&lt;/p&gt;
+&lt;p&gt;在 IDEF1X 中，如果实体集的一个实例的唯一标识依赖于该实体集与其他实体集的联系，那么它就是从属标识符实体集或简称为从属实体集。&lt;/p&gt;
+&lt;p&gt;如果子女实体集中的每一个实例都能被唯一的确认而无需了解与之相联系的双亲实体集的实例，该联系就被称为 &amp;quot;非标定型联系&amp;quot;。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;在进行 DBAS 设计时，为了&lt;font color=red&gt;避免死锁&lt;/font&gt;，可以考虑以下原则：&lt;br&gt;
@@ -121,8 +126,642 @@
 &lt;p&gt;提高数据的隔离性级别可以降低发生活锁的可能性。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;事务的隔离性是指多个并发事务同时访问一个数据库时，一个事物不应被另一个事物所干扰，即保证并发读取数据的正确性，降低发生数据不一致的可能性。&lt;/code&gt;&lt;/p&gt;
 &lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;系统规划与定义的内容包括【任务&lt;font color=orange&gt;陈述&lt;/font&gt;】、【确定任务&lt;font color=orange&gt;目标&lt;/font&gt;】、【确定系统&lt;font color=orange&gt;范围&lt;/font&gt;和&lt;font color=orange&gt;边界&lt;/font&gt;】、确定【用户&lt;font color=orange&gt;视图&lt;/font&gt;】；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;可行性分析阶段&lt;/strong&gt;的任务包括&lt;font color=orange&gt;技术&lt;/font&gt;可行性、&lt;font color=orange&gt;经济&lt;/font&gt;可行性、&lt;font color=orange&gt;操作&lt;/font&gt;可行性、&lt;font color=orange&gt;开发方案选择&lt;/font&gt;。&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;❗❗❗未完待续。。。&lt;/p&gt;
+&lt;h1 id=&#34;uml&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#uml&#34;&gt;#&lt;/a&gt; UML&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;通信图和顺序图都是交互图，从不同的侧面描述系统的动态结构，&lt;font color=red&gt;顺序图&lt;/font&gt;强调的是&lt;font color=red&gt;时间&lt;/font&gt;，&lt;font color=red&gt;通信图&lt;/font&gt;强调的是&lt;font color=red&gt;空间&lt;/font&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;font color=orange&gt;&lt;strong&gt;类图&lt;/strong&gt;&lt;/font&gt;主要表达的是问题领域的概念模型，用于表达抽象概念的名称、属性、行为及关系等系统中的&lt;font color=orange&gt;&lt;strong&gt;静态&lt;/strong&gt;结构&lt;/font&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;font color=red&gt;&lt;strong&gt;顺序图&lt;/strong&gt;&lt;/font&gt;主要用于描述系统内对象之间的消息发送与接收序列，其主要目的是表达对象与对象之间沟通与合作的方式，属于系统的&lt;font color=red&gt;&lt;strong&gt;动态模型&lt;/strong&gt;&lt;/font&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;FONT COLOR=GREEN&gt;&lt;strong&gt;通信图&lt;/strong&gt;&lt;/FONT&gt;用于描述系统内部的&lt;FONT COLOR=GREEN&gt;&lt;strong&gt;动态结构&lt;/strong&gt;&lt;/FONT&gt;，也称为协作图，用于展示对象之间的联系以及对象间发送和接收的消息&lt;/p&gt;
+&lt;p&gt;&lt;FONT COLOR=purple&gt;包图&lt;/font&gt;可以表达&lt;FONT COLOR=purple&gt;系统中不同的元素彼此间的关系&lt;/font&gt;。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在 UL 中，系统的微观设计可用对象图、状态机图和时间图从不同的侧面进行表达。下列关于系统的微观设计说法，错误的是&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;blockquote&gt;
+&lt;p&gt;状态图中只能有一个起始状态，可以有多个结束状态。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;一张时间图通常会对应至少一张状态图。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;UML 建模概念架构中包括元元模型层、元模型层、模型层和用户模型层四个层次。&lt;/p&gt;
+&lt;p&gt;元元模型层组成了 UML 的最基本的元素 &amp;quot;事物&amp;quot;，代表要定义的所有事物。&lt;/p&gt;
+&lt;p&gt;元模型层中的每个概念都是元元模型层 &amp;quot;事物&amp;quot; 概念的一个实例&lt;/p&gt;
+&lt;p&gt;用户模型层中的每个概念都是模型层的一个实例&lt;/p&gt;
+&lt;p&gt;模型层中的每个概念都是元模型层中概念的一个实例&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;用例模型是把满足用户需求的所有功能表示出来的工具，由用例、角色和系统三部分构成。关于用例模型的构成元素，&lt;/p&gt;
+&lt;p&gt;用例用于描述从系统用户的角度来观察，系统应该具有哪些功能，帮助分析人员理解系统的行为。&lt;/p&gt;
+&lt;p&gt;&lt;font color=red&gt;角色&lt;/font&gt;是与&lt;font color=red&gt;系统&lt;/font&gt;进行交互的&lt;font color=red&gt;外部实体&lt;/font&gt;，可以是系统用户也可以是其他系统或者硬件设备&lt;/p&gt;
+&lt;p&gt;系统是在边界线以内的区域（即用例的活动区域）抽象地表示能够实现的所有基本功能。&lt;br&gt;
+一个角色可以执行多个用例，反过来，一个用例也可以被多个角色使用。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;UML 可用于表达 DBAS 的内部结构。UML 图中全都属于系统结构图的是【类图】、【顺序图】、【通信图】。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;UML 用例图是用于表达 DBAS 需求的工具。&lt;/p&gt;
+&lt;p&gt;&lt;font color=orange&gt;椭圆&lt;/font&gt;表示&lt;font color=orange&gt;用例&lt;/font&gt;，位于系统边界&lt;font color=orange&gt;内部&lt;/font&gt;。&lt;/p&gt;
+&lt;p&gt;用例是需求搜索及整理的工具，主要应用在项目开发的需求分析阶段。&lt;/p&gt;
+&lt;p&gt;用例之间包括扩展、使用、组合三种关系。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;使用事物 - 基本表交叉引用矩阵，分析系统内数据库事务对各个基本表的访问情况；估计各事务的执行频率；对每张基本表，汇总所有作用于该表上的各事物的操作频率信息；根据分析结果，对基本表设计成更为有效地文件组织和&lt;font color=orange&gt;索引&lt;/font&gt;方式。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;​    &lt;strong&gt;数据库安全性保护&lt;/strong&gt;的主要保护方式有&lt;font color=orange&gt;用户身份鉴别&lt;/font&gt;、&lt;font color=orange&gt;权限控制&lt;/font&gt;、&lt;font color=orange&gt;视图机制&lt;/font&gt;。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;数据库后台编辑技术&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#数据库后台编辑技术&#34;&gt;#&lt;/a&gt; 数据库后台编辑技术&lt;/h1&gt;
+&lt;p&gt;![image-20230827231336637](计算机等级三 数据库.assets/image-20230827231336637.png)&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;在一个表上针对&lt;font color=orange&gt;同一个数据操作只能定义一个前触发器&lt;/font&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;在这种模式的触发器中，指定执行触发器而不是执行引发触发器执行的SQL语句，从而替代触发的操作。在一个表上可以建立多个名称不同、类型各异的触发器，每个触发器可由所有三个操作来引发。&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;使用&lt;font color=orange&gt;&lt;strong&gt;instead of&lt;/strong&gt;&lt;/font&gt;选项定义的触发器为&lt;font color=orange&gt;前&lt;/font&gt;触发器；在&lt;font color=orange&gt;一个表上&lt;/font&gt;针对&lt;font color=orange&gt;同一个数据操作只能定义一个前触发器&lt;/font&gt;；&lt;/p&gt;
+&lt;p&gt;有&lt;font color=orange&gt;&lt;strong&gt;for&lt;/strong&gt;&lt;/font&gt;和&lt;font color=orange&gt;&lt;strong&gt;after&lt;/strong&gt;&lt;/font&gt;定义的是&lt;font color=orange&gt;后&lt;/font&gt;触发器；可以在&lt;font color=orange&gt;同一种操作上建立多个触发器&lt;/font&gt;。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;fetch next&lt;/strong&gt; 表示先将游标当前行指针移动到下一行，并提取所指向的行数据	。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;next&lt;/strong&gt; 关键字的作用是返回紧跟在当前行之后的数据行，并且当前行递增为结果行。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;frior&lt;/strong&gt; 关键字返回紧临当前行前面的数据行，并且当前行递减为结果行。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;absolute  n&lt;/strong&gt; 和 &lt;strong&gt;relative n&lt;/strong&gt; 关键字用于指定&lt;font color=orange&gt;特定行&lt;/font&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;first&lt;/strong&gt; 关键字返回&lt;font color=orange&gt;游标&lt;/font&gt;中的&lt;font color=orange&gt;第一行并将其作为当前行&lt;/font&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;last&lt;/strong&gt; 关键字返回游标中的&lt;font color=orange&gt;最后一行&lt;/font&gt;并将其作为当前行。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;存储&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;利用存储过程可以提升&lt;font color=orange&gt;数据的安全性&lt;/font&gt;，&lt;font color=orange&gt;数据操作性能&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;存储过程是调用执行的、存储在&lt;font color=orange&gt;服务器端&lt;/font&gt;的代码段&lt;/p&gt;
+&lt;p&gt;存储过程可以接受&lt;font color=orange&gt;多个输入参数&lt;/font&gt;，也可以接受&lt;font color=orange&gt;多个输出参数&lt;/font&gt;。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;收缩数据库&lt;/strong&gt;就是释放数据库中未使用的空间，并将释放的空间交还给操作系统。&lt;/p&gt;
+&lt;p&gt;&lt;font color=orange&gt;数据文件&lt;/font&gt;和&lt;font color=orange&gt;日志文件&lt;/font&gt;的空间都可以收缩。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;角色分为&lt;strong&gt;服务器级&lt;/strong&gt;角色和&lt;strong&gt;数据库级&lt;/strong&gt;角色。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;db_datawriter&lt;/strong&gt; 角色属于&lt;font color=orange&gt;数据库级&lt;/font&gt;角色，具有【插入】、【删除】和【更改】数据库中所有用户数据的权限。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在对游标数据进行提取的过程中，可以使用 @@fetch_status 全局变量判断数据提取的状态。&lt;/p&gt;
+&lt;p&gt;由于 @@fetch_status 对于在一个连接上的所有游标是全局性的，不管是对哪个游标，只要执行一次 FETCH 语句，系统都会对 @@fetch_status 赋一次值，以表明该 FETCH 语句的执行情况。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;数据库及数据库对象&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#数据库及数据库对象&#34;&gt;#&lt;/a&gt; 数据库及数据库对象&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;model 数据库用作 SQL Server 实例上创建的所有数据库的模板。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;对 model 数据库进行的修改（如数据库大小、排序规则、恢复模式和其他数据库选项）将应用于以后创建的所有用户数据库。&lt;/p&gt;
+&lt;p&gt;用户数据库的大小不能小于 model 数据库的大小。&lt;/p&gt;
+&lt;p&gt;用户创建的数据库都自动包含 model 数据库中的内容。&lt;/p&gt;
+&lt;p&gt;model 数据库是数据库管理系统自动创建的&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;文件组&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;font color=orange&gt;日志文件不包括在文件组内&lt;/font&gt;，日志文件和数据文件是分开管理的。&lt;/p&gt;
+&lt;p&gt;PRIMARY 是系统定义好的一个文件组，每个数据库有且仅有一个 PRIMARY 文件组。&lt;/p&gt;
+&lt;p&gt;&lt;font color=orange&gt;次要&lt;/font&gt;数据文件可以和&lt;font color=orange&gt;主要&lt;/font&gt;数据文件存放在 **&lt;font color=orange&gt;相同的文件组&lt;/font&gt;** 中，也可反正不同的位置。&lt;/p&gt;
+&lt;p&gt;在一个数据库中用户可以创建多个文件组。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;​    tempdb 数据库&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;临时数据库，用于保存临时对象或中间结果集。&lt;/p&gt;
+&lt;p&gt;并为数据的排序等操作提供一个临时工作空间。&lt;/p&gt;
+&lt;p&gt;每次启动 SQL Server 时都会重新创建 tempdb 数据库。&lt;/p&gt;
+&lt;p&gt;tempdb 用于存放临时信息，用户创建的局部和全局临时表均被自动放置在该数据库中&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;​    架构（Schema，也称为模式）&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;一个逻辑命名空间，可以存放表、视图等数据库对象。&lt;/p&gt;
+&lt;p&gt;一个数据库可以包含一个或多个架构，架构由特定的授权用户所拥有；&lt;/p&gt;
+&lt;p&gt;在同一个数据库中，架构名必须唯一；&lt;/p&gt;
+&lt;p&gt;架构名可以是显示的，也可以由 DBMS 提供默认名。&lt;/p&gt;
+&lt;p&gt;在不同的架构中，数据库对象可以重名&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;唯一索引&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;唯一索引的作用是&lt;font color=orange&gt;保证索引键值的不重复&lt;/font&gt;。&lt;/p&gt;
+&lt;p&gt;在&lt;font color=orange&gt;多列唯一索引&lt;/font&gt;的情况下，可以确保索引列中每个值的组合都是唯一的。&lt;/p&gt;
+&lt;p&gt;&lt;font color=orange&gt;唯一索引&lt;/font&gt;和&lt;font color=orange&gt;非聚集索引&lt;/font&gt;之间&lt;font color=orange&gt;没有限定关系&lt;/font&gt;。即在一个表上可以同时有聚集索引和非聚集索引	。&lt;/p&gt;
+&lt;p&gt;唯一索引既可以是聚集的也可以是非聚集的	。&lt;/p&gt;
+&lt;p&gt;建立索引一般会降低数据的增、删、改效率。&lt;/p&gt;
+&lt;p&gt;一个表上只能有&lt;font color=orange&gt;一个聚集索引&lt;/font&gt;，一个表上可以有&lt;font color=orange&gt;多个非聚集&lt;/font&gt;索引	。&lt;/p&gt;
+&lt;p&gt;在表上建立&lt;font color=orange&gt;聚集索引&lt;/font&gt;会引起表中&lt;font color=orange&gt;数据的物理排序&lt;/font&gt;。&lt;/p&gt;
+&lt;p&gt;对于非聚集索引，数据行的物理排序独立于索引排序&lt;/p&gt;
+&lt;p&gt;&lt;font color=orange&gt;唯一索引&lt;/font&gt;可以确保索引列&lt;font color=orange&gt;不包含重复的值&lt;/font&gt;。&lt;/p&gt;
+&lt;p&gt;唯一索引不允许两行具有相同的索引键值。&lt;/p&gt;
+&lt;p&gt;如果数据文件中的数据记录的排列顺序与索引文件中索引项的排列顺序一致，那么该索引文件就成为聚集索引。&lt;/p&gt;
+&lt;p&gt;聚集索引必然不是唯一索引。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;​&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;分离数据库&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;正在被用户访问的数据库不能被分离。&lt;/p&gt;
+&lt;p&gt;数据库被分离后，其所包含的文件可以被复制和剪切	。&lt;/p&gt;
+&lt;p&gt;分离数据库后，数据库文件将不受数据库管理系统的管理	。&lt;/p&gt;
+&lt;p&gt;分离数据库是指将数据库从 SQL Server 实例中删除，但&lt;font color=orange&gt;不删除数据库包含的文件&lt;/font&gt;	。&lt;/p&gt;
+&lt;p&gt;需要&lt;font color=orange&gt;停用被分离的数据库&lt;/font&gt;，但是不需要停用 SQL Server 服务。&lt;/p&gt;
+&lt;p&gt;分离和附加数据库时，SQL Server 服务应处于启动状态	。&lt;/p&gt;
+&lt;p&gt;附加数据库后将使数据库管理系统恢复对分离后的数据库的管理。&lt;/p&gt;
+&lt;p&gt;使用分离和附加数据库方法可以将数据库从一台服务器移动到另一台服务器。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;创建分区表通过以下几个步骤实现：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;（1）创建分区&lt;font color=orange&gt;函数&lt;/font&gt;。创建分区函数的目的是告诉数据库管理系统以什么方式对表进行分区。&lt;br&gt;
+（2）创建分区&lt;font color=orange&gt;方案&lt;/font&gt;。分区方案的作用是将分区函数生成的分区映射到文件组中。&lt;br&gt;
+（3）使用&lt;font color=orange&gt;分区方案创建表&lt;/font&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;font color=orange&gt;创建分区表&lt;/font&gt;就是对表中数据进行&lt;font color=orange&gt;水平划分&lt;/font&gt;	。&lt;/p&gt;
+&lt;p&gt;分区函数的作用是&lt;font color=orange&gt;定义表的分区方式&lt;/font&gt;。&lt;/p&gt;
+&lt;p&gt;❗❗&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;水平划分&lt;/strong&gt;将一张基本表划分为多张具有&lt;font color=orange&gt;相同属性&lt;/font&gt;、&lt;font color=orange&gt;结构完全相同&lt;/font&gt;的子表。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;垂直划分&lt;/strong&gt;则是将一张基本表划分为多张子表，&lt;font color=orange&gt;每张子表包含的属性是原基本表的子集&lt;/font&gt;。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;数据库创建后，允许自动或手动扩大&lt;font color=orange&gt;数据文件&lt;/font&gt;和&lt;font color=orange&gt;日志文件&lt;/font&gt;的空间。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;​    用户可以自行指定数据文件和日志文件的存放位置。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;数据库所包含的&lt;font color=orange&gt;文件&lt;/font&gt;与&lt;font color=orange&gt;文件存储位置信息&lt;/font&gt;均保存在&lt;font color=orange&gt;主要数据文件&lt;/font&gt;中。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;区表是将表中的数据按水平方式划分成不同的子集，这些数据子集存储在数据库的一个或多个文件组中。&lt;br&gt;
+分区表是从物理上将一个大表分成几个小表，但从逻辑上来看还是一个大表。对于用户而言，所面对的仍然是一个大表，用户只要对大表进行操作就可以了，数据库管理系统会自动对小表进行操作。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;​    对于非聚集索引，数据行的物理排序独立于索引排序。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;安全管理&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#安全管理&#34;&gt;#&lt;/a&gt; 安全管理&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;​    guest&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;特殊的&lt;font color=orange&gt;数据库用户&lt;/font&gt;; 用于提供匿名访问； 未启用时不能使用	。&lt;/p&gt;
+&lt;p&gt;除 guest 用户外，所有的数据库用户都必须对应一个登录账户	。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Oracle 的&lt;font color=orange&gt;安全控制机制&lt;/font&gt;可分为&lt;font color=orange&gt;数据库级&lt;/font&gt;的安全控制、&lt;font color=orange&gt;表级&lt;/font&gt;、&lt;font color=orange&gt;行级&lt;/font&gt;和&lt;font color=orange&gt;列级&lt;/font&gt;的安全控制。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;font color=red&gt;数据库级&lt;/font&gt;的安全性通过&lt;font color=red&gt;用户身份认证&lt;/font&gt;和&lt;font color=red&gt;授予用户相应系统权限&lt;/font&gt;来保证，&lt;/p&gt;
+&lt;p&gt;而&lt;font color=purple&gt;表级&lt;/font&gt;、&lt;font color=purple&gt;行级&lt;/font&gt;、&lt;font color=purple&gt;列级&lt;/font&gt;的安全性是通过&lt;font color=purple&gt;&lt;strong&gt;授予或回收对象特权&lt;/strong&gt;&lt;/font&gt;保证的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Oracle 数据库中的用户按其&lt;font color=orange&gt;操作权限&lt;/font&gt;大小可分&lt;font color=orange&gt;&lt;strong&gt;DBA 用户&lt;/strong&gt;&lt;/font&gt;和&lt;font color=orange&gt;&lt;strong&gt;普通用户&lt;/strong&gt;&lt;/font&gt;。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;SQL Server 2008 的&lt;strong&gt;身份验证模式&lt;/strong&gt;有【Windows 身份验证模式】和【混合身份验证模式】两种。&lt;/p&gt;
+&lt;p&gt;混合身份验证模式是指 SQL Server 允许 Windows 授权用户和 SQL 授权用户登录到 SQL Server 数据库服务器。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;db_datereader 是&lt;font color=orange&gt;数据库级&lt;/font&gt;角色，具有&lt;font color=orange&gt;查询数据库中所有用户数据的权限&lt;/font&gt;。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;db_datawriter 是固定&lt;font color=orange&gt;数据库角色&lt;/font&gt;之一，具有【插入】、【删除】和【更改】数据库中所有用户数据的权限。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;运行维护与优化&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#运行维护与优化&#34;&gt;#&lt;/a&gt; 运行维护与优化&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;数据库重组重构&lt;/p&gt;
+&lt;p&gt;数据库重组是指按照系统设计要求对数据库存储空间进行全面调整，如【调整磁盘分区方法和存储空间】、【重新安排数据的存储】、【整理回收碎块】等，以提高数据库性能。&lt;br&gt;
+数据库的重构是指由于数据库应用环境的不断变化，【增加了新的应用或新的实体】，【取消了某些应用】，有的【实体与实体间的联系也发生了变化】等，使得原有的数据库设计不能满足新的需求，此时需要调整数据库的模式和内模式。&lt;/p&gt;
+&lt;p&gt;&lt;font color=orange&gt;重组&lt;/font&gt;并&lt;font color=orange&gt;不&lt;/font&gt;修改数据库原有设计的&lt;font color=orange&gt;逻辑结构&lt;/font&gt;和&lt;font color=orange&gt;物理结构&lt;/font&gt;，而数据库的&lt;font color=red&gt;重构&lt;/font&gt;则不同，它可以部分&lt;font color=red&gt;修改数据库的模式和内模式&lt;/font&gt;。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;冗余列&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;派生性冗余列是指表中增加的列由表中的一些数据项经过计算生成。&lt;/p&gt;
+&lt;p&gt;作用：查询时【减少连接操作】，【避免使用聚合函数】。&lt;/p&gt;
+&lt;p&gt;由于增加了【派生性冗余字段】，破坏了【规范化规则】。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;索引改进系统的性能的方法：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;删除或创建索引&lt;/p&gt;
+&lt;p&gt;非聚簇索引和聚簇索引的相互转换，&lt;/p&gt;
+&lt;p&gt;重建索引&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;数据库应用系统【投入运行】标志着【系统&lt;font color=orange&gt;开发&lt;/font&gt;任务的基本&lt;font color=orange&gt;完成&lt;/font&gt;】和【系统运行&lt;font color=orange&gt;维护&lt;/font&gt;工作的&lt;font color=orange&gt;开始&lt;/font&gt;】。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;数据库【监控分析机制】：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;①数据库系统建立的&lt;font color=orange&gt;自动监控机制&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;②管理员&lt;font color=orange&gt;手动&lt;/font&gt;实施的&lt;font color=orange&gt;监控机制&lt;/font&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;分割表&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;水平分割&lt;/strong&gt;是根据数据行的使用特点进行分割，分割之后所得的所有&lt;font color=orange&gt;表结构相同&lt;/font&gt;，而&lt;font color=orange&gt;存储的数据不同&lt;/font&gt;。水平分割会给应用增加复杂度，特别在查询所有数据时需要 Union（并）操作；大部分情况是&lt;font color=orange&gt;局部&lt;/font&gt;使用，只有很少情况才全局查询时适合使用此方法。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;垂直分割&lt;/strong&gt;是根据列的特点进行分割，分割之后所得的所有表中除了都含有主码列外其余列都不同 (即&lt;font color=orange&gt;垂直分割后的表都需要包含原表的主码&lt;/font&gt;) 其查询时会减少 I/O 次数，但其缺点是查询所有数据时需要 Join (连接）操作。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;数据库模式调整与优化:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;​    在数据库设计阶段，主要强调的是高效率利用存储空间，减少数据的冗余，减少数据的不一致，这个过程也就是规范化的过程。&lt;/p&gt;
+&lt;p&gt;规范化关系&lt;font color=orange&gt;解决&lt;/font&gt;了&lt;font color=orange&gt;数据维护的异常&lt;/font&gt;，并使&lt;font color=orange&gt;冗余最小化&lt;/font&gt;，然而，可能会出现&lt;font color=red&gt;数据处理性能下降&lt;/font&gt;的问题。&lt;/p&gt;
+&lt;p&gt;在大多数情况下，数据库系统需要考虑的第二个目标是高效率的数据处理，反规范化处理，如增加派生冗余列，增加冗余列，重新组表、分割表和新增汇总表可以有效地提高查询效率&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;数据库运行维护工作  主要包括&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;数据库的&lt;font color=orange&gt;转储&lt;/font&gt;和&lt;font color=orange&gt;恢复&lt;/font&gt;；&lt;/p&gt;
+&lt;p&gt;数据库的&lt;font color=orange&gt;安全性&lt;/font&gt;和&lt;font color=orange&gt;完整性&lt;/font&gt;控制；&lt;/p&gt;
+&lt;p&gt;数据库性能的&lt;font color=orange&gt;监控分析和改进&lt;/font&gt;；&lt;/p&gt;
+&lt;p&gt;数据库的&lt;font color=orange&gt;重组&lt;/font&gt;和&lt;font color=orange&gt;重构&lt;/font&gt;。&lt;/p&gt;
+&lt;p&gt;【新建数据库用户】属于数据库的安全性和完整性控制的一项功能。故&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;数据库设计过程中，【提高数据库安全性】的同时&lt;font color=orange&gt;不一定&lt;/font&gt;能【提高数据库性能】。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;数据库维护的主要工作内容是日常维护、系统监控与分析、系统性能优化调整、系统进化（升级）等工作。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;如果数据库服务器中运行&lt;font color=orange&gt;队列数量&lt;/font&gt;超过&lt;font color=orange&gt;逻辑 CPU 数量&lt;/font&gt;说明&lt;font color=red&gt;CPU 已经饱和&lt;/font&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;code&gt;    如果运行队列数量超过了CPU处理的数目，服务器性能就会受到CPU的限制而下降，解决方法是为服务器适当增加CPU的数量或者是终止需要许多资源的进程。&lt;/code&gt;&lt;/p&gt;
+&lt;ol start=&#34;12&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;​    派生性冗余列。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;表中增加的列由表中的一些数据项经过计算生成&lt;/code&gt; 。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;作用:&lt;/p&gt;
+&lt;p&gt;查询时&lt;font color=orange&gt;减少连接操作&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;避免使用&lt;font color=orange&gt;聚合函数&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;提高查询&lt;font color=orange&gt;统计&lt;/font&gt;的处理速度&lt;/p&gt;
+&lt;p&gt;达到以&lt;font color=orange&gt;空间换时间&lt;/font&gt;的目的。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;索引&lt;/strong&gt;的使用要恰到好处，其使用原则一般如下：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;①经常&lt;font color=orange&gt;作为查询条件的列&lt;/font&gt;&lt;br&gt;
+②频繁进行&lt;font color=orange&gt;排序&lt;/font&gt;或&lt;font color=orange&gt;分组&lt;/font&gt;的列&lt;br&gt;
+③一个列的&lt;font color=orange&gt;值域很大&lt;/font&gt;时&lt;br&gt;
+④如果&lt;font color=orange&gt;待排序的列有多个&lt;/font&gt;&lt;br&gt;
+⑤可以使用系统工具来检查索引的完整性，必要时进行修复。另外，当数据库表更新大量数据后，删除并重建索引也可以提高查询速度。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;将【数据文件】和【索引文件】放置在【同一磁盘上】【不利于提高查询效率】。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;当数据库表更新大量数据后，【删除并重建索】引可以提高查询速度。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;有些时候完全规范化严格遵守 3NF 的表会降低数据库的性能，此时需要反规范化。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;数据库设计过程中，数据库的【一致性设计】往往以【牺牲效率】为代价&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;code&gt;数据库的一致性是数据库的完整性需要实现的功能，属于数据安全设计的工作范畴。保证完整性的方法之一是设置完整性检查，对数据设置一些约束条件，这些条件的检查需要消耗数据库的性能&lt;/code&gt;&lt;/p&gt;
+&lt;ol start=&#34;18&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;font color=orange&gt;集中式数据库&lt;/font&gt;的查询处理中，主要代价是&lt;font color=red&gt;CPU 代价&lt;/font&gt;和&lt;font color=red&gt;I/O 代价&lt;/font&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;font color=orange&gt;分布式数据库&lt;/font&gt;系统中，由于数据分布在多个不同的场地上，需要在各站点中传输数据，所以&lt;font color=red&gt;通信代价&lt;/font&gt;尤为关键。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;RAID5→RAID1 属于【性能优化调整】。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;  数据库系统运行需要依赖服务器、操作系统、存储、网络等多种因素。与RAID5相比，RAID1提高了读速度，加强了系统的可靠性，但是磁盘的利用率低，冗余度高，并且写入速度并未提高。将RAID5改为RAID1，明显是为因为要改善读取速度或可靠性才进行的调整。这是根据系统运行性能的优化而做出的调整&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;数据库性能优化:&lt;/p&gt;
+&lt;p&gt;一般可以从&lt;font color=orange&gt;数据库运行环境&lt;/font&gt;（操作系统）、数据库&lt;font color=orange&gt;参数调整&lt;/font&gt;、&lt;font color=orange&gt;模式调整&lt;/font&gt;、数据库&lt;font color=orange&gt;存储优化及查询优化&lt;/font&gt;几个各方面考虑。&lt;br&gt;
+数据库系统运行需要依赖服务器、操作系统、存储、网络等多种因素。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;水平分割&lt;/strong&gt;是对一张表在水平方向分割，分割后得到的&lt;font color=orange&gt;表结构相同&lt;/font&gt;，查询时需要使用&lt;font color=orange&gt;UNION&lt;/font&gt;运算；&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;垂直分割&lt;/strong&gt;则是对一张表在垂直方向分隔，分割后每张表中主码保留 (&lt;font color=orange&gt;保留原有表的主键&lt;/font&gt;)，其他列均不同，查询时需要使用&lt;font color=orange&gt;JOIN&lt;/font&gt;运算。&lt;br&gt;
+分割的目的是提高性能。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;数据库维护：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;IV. 定期为数据库管理系统打补丁&lt;br&gt;
+ V. 定期备份数据库&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;数据库监控：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I. 查看数据库用户连接数&lt;br&gt;
+ II. 查看数据库空间是否满足业务需求&lt;br&gt;
+ III. 检查数据缓冲区命中率、数据库锁情况&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;故障管理备份与恢复&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#故障管理备份与恢复&#34;&gt;#&lt;/a&gt; 故障管理，备份与恢复&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;数据转储也被称为数据备份，是数据库管理员的重要工作。&lt;/p&gt;
+&lt;p&gt;在&lt;font color=orange&gt;制定备份策略&lt;/font&gt;时，除考虑使用备份恢复时&lt;font color=orange&gt;丢失的数据量&lt;/font&gt;外，还需考虑数据库备份所需的&lt;font color=orange&gt;时间&lt;/font&gt;。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;静态转储&lt;/strong&gt;虽然保证了数据的&lt;font color=orange&gt;有效性&lt;/font&gt;，但是却是以&lt;font color=red&gt;降低&lt;/font&gt;数据库的&lt;font color=red&gt;可用性&lt;/font&gt;为代价；(静有用)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;动态转储&lt;/strong&gt;虽然提高了数据库的&lt;font color=orange&gt;可用性&lt;/font&gt;，但数据的&lt;font color=red&gt;有效性&lt;/font&gt;却可能&lt;font color=red&gt;得不到保障&lt;/font&gt;。（动可有）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;差量转储&lt;/strong&gt;和&lt;strong&gt;增量转储&lt;/strong&gt;相比，&lt;font color=orange&gt;速度慢&lt;/font&gt;，&lt;font color=orange&gt;占用空间&lt;/font&gt;较&lt;font color=orange&gt;多&lt;/font&gt;，但&lt;font color=orange&gt;恢复速度&lt;/font&gt;比增量转储&lt;font color=orange&gt;快&lt;/font&gt;。(差慢多，恢复快)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;完全转储&lt;/strong&gt;是对数据库中所有数据进行转储，需占用较多的时间和空间。转储速度并不快。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;检查点技术&lt;/strong&gt;大幅度减少了【数据库&lt;font color=orange&gt;完全恢复&lt;/font&gt;时所必须执行的&lt;font color=orange&gt;日志部分&lt;/font&gt;】。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;日志文件&lt;/strong&gt;记录每个事务对数据库的修改操作，主要用来&lt;font color=orange&gt;实现数据恢复&lt;/font&gt;。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;数据库备份：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;数据库备份设备可以是&lt;font color=orange&gt;磁带&lt;/font&gt;也可以是&lt;font color=orange&gt;磁盘&lt;/font&gt;。&lt;/p&gt;
+&lt;p&gt;数据库备份设备可以为&lt;font color=orange&gt;本地设备&lt;/font&gt;，也可以使用&lt;font color=orange&gt;远程网络设备&lt;/font&gt;。&lt;/p&gt;
+&lt;p&gt;SQL Server 支持两种备份方式：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;永久备份设备&lt;/strong&gt;：一种是先&lt;font color=orange&gt;建立备份设备&lt;/font&gt;，然后再&lt;font color=orange&gt;将数据库备份到备份设备上&lt;/font&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;临时备份设备&lt;/strong&gt;：直接将数据库备份到&lt;font color=orange&gt;物理文件&lt;/font&gt;上。&lt;/p&gt;
+&lt;p&gt;创建备份设备的 T-SQL 存储过程为 sp_addumpdevice。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;事务日志备份&lt;/strong&gt;仅用于&lt;font color=orange&gt;完整恢复模式&lt;/font&gt;和&lt;font color=orange&gt;大容量日志恢复模式&lt;/font&gt;，它并不备份数据库本身，只备份日志记录，而且只备份从上次备份之后到当前备份时间发生变化的日志内容。但是&lt;font color=red&gt;不允许&lt;/font&gt;对&lt;font color=red&gt;大容量操作日志备份进行时点恢复&lt;/font&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;结尾日志备份&lt;/strong&gt;在出现&lt;font color=green&gt;故障时进行&lt;/font&gt;，用于&lt;font color=orange&gt;防止丢失数据&lt;/font&gt;，可以包含&lt;font color=orange&gt;纯日志记录&lt;/font&gt;或者&lt;font color=orange&gt;大容量操作日志&lt;/font&gt;记录。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;SQL Server 2008 支持【数据库】、【数据文件】两个级别的&lt;strong&gt;数据恢复&lt;/strong&gt;。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在还原数据库前，如果日志文件没有损坏，可以进行一次结尾日志备份，减少数据损失	。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在&lt;font color=orange&gt;restore database &lt;/font&gt;语句中使用&lt;font color=orange&gt;with recovery&lt;/font&gt;选项后，数据库将&lt;font color=red&gt;不能&lt;/font&gt;&lt;font color=orange&gt;再使用后续备份进行恢复&lt;/font&gt;。、&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在 SQL Server 2008 系统数据库中，只有【tempdb 数据库不需要备份】，其他的都需要备份。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;empdb只是一个临时数据库，每次SQL Server启动时都会重新新建tempdb数据库。&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;对于大型数据库，&lt;font color=orange&gt;差异备份&lt;/font&gt;的&lt;font color=orange&gt;间隔&lt;/font&gt;通常比完整数据库备份的时间&lt;font color=orange&gt;更短&lt;/font&gt;，这可降低数据丢失风险。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;差异备份备份适用于数据库更改频繁、数据丢失造成影响比较大的情况&lt;/code&gt; 。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;静态转储不一定需要日志文件&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;日志文件的具体作用为：&lt;/p&gt;
+&lt;p&gt;①事务故障恢复和系统故障恢复必须使用日志文件&lt;/p&gt;
+&lt;p&gt;②在动态转储方式中必须建立日志文件&lt;/p&gt;
+&lt;p&gt;③在静态转储方式中，也可以建立日志文件。为保证数据库是可恢复的。&lt;/p&gt;
+&lt;p&gt;登记日志文件必须遵循两条原则：&lt;/p&gt;
+&lt;p&gt;①登记的次序严格按并行事务执行的时间次序&lt;/p&gt;
+&lt;p&gt;②必须先写日志文件，后写数据库。`&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;通常，对于用户数据库，&lt;font color=orange&gt;简单恢复模式&lt;/font&gt;只用于测试和开发数据库，或用于主要包含只读数据的数据库（如数据仓库），这种模式并&lt;font color=orange&gt;不适合生产系统&lt;/font&gt;，因为对生产系统而言，丢失最新的更改是无法接受的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;​&lt;/p&gt;
+&lt;ol start=&#34;16&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;备份策略的制定包括&lt;/p&gt;
+&lt;p&gt;定义备份的【类型】和【频率】&lt;/p&gt;
+&lt;p&gt;备份所需【硬件的特性和速度】&lt;/p&gt;
+&lt;p&gt;备份的【测试方法】&lt;/p&gt;
+&lt;p&gt;备份【媒体的存储位置和方法】。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;数据库故障及解决方法的 (故障管理)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;RAID&lt;font color=orange&gt;1&lt;/font&gt;可以&lt;font color=orange&gt;避免介质故障带来的影响&lt;/font&gt;，RAID0 不行。&lt;/p&gt;
+&lt;p&gt;发生&lt;strong&gt;软故障&lt;/strong&gt;后时，需要在&lt;font color=orange&gt;重启系统&lt;/font&gt;后，&lt;font color=orange&gt;undo&lt;/font&gt;所有&lt;font color=orange&gt;未提交&lt;/font&gt;的事务，并&lt;font color=orange&gt;redo&lt;/font&gt;所有&lt;font color=orange&gt;已提交&lt;/font&gt;的事务。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;非预期&lt;/strong&gt;的事务内部故障&lt;font color=orange&gt;不能由事务程序处理&lt;/font&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;可预期&lt;/strong&gt;的事务内部故障可以通过将&lt;font color=orange&gt;事务回滚&lt;/font&gt;，撤销其对数据库的修改，使数据库回到一致性状态。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;SQL Server 的备份与恢复机制&lt;/p&gt;
+&lt;p&gt;简单恢复模式不备份事务日志。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt; 简单恢复模式可最大限度的减少事务日志的管理开销，因为这种模式不备份事务日志。&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;事务日志支备份日志记录。&lt;/p&gt;
+&lt;p&gt;​     &lt;code&gt;事务日志备份仅用于完整恢复模式和大容量日志恢复模式，不备份数据库本身，只备份日志记录，而且只备份从上次备份之后到当前备份时间发生变化的日志内容。&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;​    连续的日志备份序列称为 &amp;quot;日志链&amp;quot;。日志链从数据库的完整备份开始。通常，仅当第一次进行完整数据库备份，或者将数据库恢复模式从简单恢复模式切换到完整恢复模式或大容量日志恢复模式之后，才会开始一个新的日志链。&lt;br&gt;
+​    &lt;font color=orange&gt;结尾&lt;/font&gt;日志备份是恢复计划中的&lt;font color=orange&gt;最后一个相关备份&lt;/font&gt;。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;数据备份类型：&lt;/p&gt;
+&lt;p&gt;完整备份是备份特定数据库中的所有数据，以及可以恢复这些数据的足够的日志。&lt;br&gt;
+事务日志备份仅用于完整恢复模式和大容量日志恢复模式。&lt;br&gt;
+差异备份包含最近一次完整备份之后发生了更改的数据区。&lt;br&gt;
+使用差异备份时，应定期进行完整备份。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;# 大规模数据架构
+
+1. 分布式透明性的主要因素： &amp;lt;font color=orange&amp;gt;位置&amp;lt;/font&amp;gt;独立性、  &amp;lt;font color=orange&amp;gt;数据分片&amp;lt;/font&amp;gt;独立性和  &amp;lt;font color=orange&amp;gt;数据复制&amp;lt;/font&amp;gt;独立性。
+
+2. **分片透明性**是 &amp;lt;font color=orange&amp;gt;最高级别&amp;lt;/font&amp;gt;的透明性，是指数据分片 &amp;lt;font color=orange&amp;gt;用户无需考虑&amp;lt;/font&amp;gt;的，完全透明的，在编写程序时用户只需要对全局关系进行操作。
+
+3. 分布透明性有如下几种级别：
+
+   &amp;gt; （1）**&amp;lt;font color=orange&amp;gt;分片&amp;lt;/font&amp;gt;透明性**:分片透明性是最高级别的透明性，位于&amp;lt;font color=orange&amp;gt;全局&amp;lt;/font&amp;gt;模式与&amp;lt;font color=orange&amp;gt;分片模式&amp;lt;/font&amp;gt;之间。
+   &amp;gt;
+   &amp;gt; （2**）&amp;lt;font color=orange&amp;gt;位置&amp;lt;/font&amp;gt;透明性**:位置透明性是指数据分片的分配位置&amp;lt;font color=orange&amp;gt;对用户&amp;lt;/font&amp;gt;是&amp;lt;font color=orange&amp;gt;透明&amp;lt;/font&amp;gt;的，用户编写程序时只需要考虑数据分片情况，&amp;lt;font color=orange&amp;gt;不需要了解各分片在各个场地的分配情况&amp;lt;/font&amp;gt;。
+   &amp;gt;
+   &amp;gt; （3）**&amp;lt;font color=orange&amp;gt;局部数据模型&amp;lt;/font&amp;gt;透明性**:局部数据模型透明性处于&amp;lt;font color=orange&amp;gt;分配模式&amp;lt;/font&amp;gt;与&amp;lt;font color=orange&amp;gt;局部概念&amp;lt;/font&amp;gt;模式之间。
+
+   
+
+4. 全局**外**模式:全局应用的用户视图，即终端用户看到的逻辑上并未分布的表、视图等。
+
+   
+
+5. 
+
+   &amp;gt; 在**集中式数据库系统**中，查询**代价**主要是由&amp;lt;font color=orange&amp;gt;CPU代价&amp;lt;/font&amp;gt;和&amp;lt;font color=orange&amp;gt;I/O代价&amp;lt;/font&amp;gt;来衡量的
+   &amp;gt;
+   &amp;gt; 在**分布式数据库系统**中，由于数据分布在多个不同的场地上，使得查询处理中还要考虑站点间传输数据的&amp;lt;font color=orange&amp;gt;通信代价&amp;lt;/font&amp;gt;。
+
+   
+
+   
+
+6. 分布式数据库最基本特征：&amp;lt;font color=orange&amp;gt;**本**地自治&amp;lt;/font&amp;gt;，&amp;lt;font color=orange&amp;gt;**非**集中式&amp;lt;/font&amp;gt;管理，&amp;lt;font color=orange&amp;gt;**高**可用性&amp;lt;/font&amp;gt;。
+
+7. 聚集函数的并行化计算可以釆取&amp;quot;&amp;lt;font color=orange&amp;gt;先分后合&amp;lt;/font&amp;gt;&amp;quot;的方法。
+
+8. &amp;lt;font color=orange&amp;gt; 范围划分&amp;lt;/font&amp;gt;是按照关系中某个   &amp;lt;font color=orange&amp;gt; 属性&amp;lt;/font&amp;gt;的取值范围将数据文件划分为n部分，分别存放到磁盘上。
+
+9. 并行数据库有多种体系结构：
+
+   **共享磁盘结构**所有的处理机拥有独立的内存，通过互联网共享磁盘。这种结构可以克服共享内存结构，但是由于是通过互联网实现处理器之间的信息交换，会产生一定的通信代价。
+
+10. 在并行数据库中的数据划分与并行算法中
+
+    &amp;gt; &amp;lt;font color=orange&amp;gt;**范围划分**&amp;lt;/font&amp;gt;适合  &amp;lt;font color=orange&amp;gt;点&amp;lt;/font&amp;gt;查询，  &amp;lt;font color=orange&amp;gt;范围&amp;lt;/font&amp;gt;查询，但是会引起&amp;lt;font color=red&amp;gt;数据分布不均匀&amp;lt;/font&amp;gt;，导致&amp;lt;font color=red&amp;gt;并行处理能力下降&amp;lt;/font&amp;gt;。
+    &amp;gt;
+    &amp;gt; 如果关系按照范围划分的方法进行划分，且排序属性恰好为划分属性，则可以直接将各个划分的排序结果串接起来，得到完全排好序的关系。
+    &amp;gt;
+    &amp;gt; 
+    &amp;gt;
+    &amp;gt; **&amp;lt;font color=orange&amp;gt;散列划分&amp;lt;/font&amp;gt;**使用散列函数，根据一个或多个属性进行散列，适合  &amp;lt;font color=orange&amp;gt;点&amp;lt;/font&amp;gt;查询，对于  &amp;lt;font color=orange&amp;gt;顺序扫描&amp;lt;/font&amp;gt;也非常高效，但是对  &amp;lt;font color=red&amp;gt;散列函数&amp;lt;/font&amp;gt;的  &amp;lt;font color=red&amp;gt;优劣依赖&amp;lt;/font&amp;gt;很大。
+    &amp;gt;
+    &amp;gt; 
+    &amp;gt;
+    &amp;gt; &amp;lt;font color=orange&amp;gt;**轮转法**&amp;lt;/font&amp;gt;保证了元组在多个磁盘上平均分配，适合扫描整个关系的应用，负载均衡，并行性好，但是&amp;lt;font color=orange&amp;gt;点查询&amp;lt;/font&amp;gt;和&amp;lt;font color=orange&amp;gt;范围查询&amp;lt;/font&amp;gt; &amp;lt;font color=red&amp;gt;效率低&amp;lt;/font&amp;gt;
+
+    
+
+11. 与传统数据库相比，**XML数据库**具有以下优势：
+    （1）XML数据库能够对&amp;lt;font color=orange&amp;gt;半结构化数据&amp;lt;/font&amp;gt;进行有效的存取和管理。如网页内容就是一种半结构化数据，而传统的关系数据库对于类似网页内容这类半结构化数据无法进行有效的管理。
+    （2）提供对&amp;lt;font color=orange&amp;gt;标签&amp;lt;/font&amp;gt;和&amp;lt;font color=orange&amp;gt;路径&amp;lt;/font&amp;gt;的操作。传统数据库语言允许对数据元素的值进行操作，但不能对元素名称进行操作，半结构化数据库提供了对标签名称的操作，包括对路径的操作。
+    （3）当数据本身具有层次特征时，由于XML数据格式能够&amp;lt;font color=orange&amp;gt;清晰表达&amp;lt;/font&amp;gt;数据的&amp;lt;font color=orange&amp;gt;层次特征&amp;lt;/font&amp;gt;，因此XML数据库便于对层次化的数据进行操作。XML数据库适合管理&amp;lt;font color=orange&amp;gt;复杂数据结构&amp;lt;/font&amp;gt;的数据集。
+
+    
+
+    现阶段在现实环境中，一边使用的是原有的关系数据库厂商在其传统商业产品中进行了相关的扩充，使其能够处理XML数据的产品。
+
+12. **数据分片**有四种基本方法：
+
+    &amp;gt;    （1）&amp;lt;font color=orange&amp;gt;水平&amp;lt;/font&amp;gt;分片是在关系中从行的角度（元组）依据一定条件划分为不同的片断，关系中的&amp;lt;font color=red&amp;gt;每一行必须至少属于一个片断&amp;lt;/font&amp;gt;，以便在需要时可以重构关系。
+    &amp;gt;     （2）&amp;lt;font color=orange&amp;gt;垂直&amp;lt;/font&amp;gt;分片是在关系中从列的角度（属性）依据一定条件分为不同的片断，各片断中应该&amp;lt;font color=red&amp;gt;包含关系的主码属性&amp;lt;/font&amp;gt;，以便通过连接方法恢复关系。
+    &amp;gt;     （3）&amp;lt;font color=orange&amp;gt;导出&amp;lt;/font&amp;gt;分片是导出水平分片，分片的依据不是本关系属性的条件，而是&amp;lt;font color=red&amp;gt;其他关系属性的条件&amp;lt;/font&amp;gt;。
+    &amp;gt;     （4）&amp;lt;font color=orange&amp;gt;混合&amp;lt;/font&amp;gt;分片指以上三种方法的混合。
+
+    
+
+13. **BigTable表**
+
+    **BigTable表**的**索引**是行关键字、列关键字和时间戳，
+
+    每个单元由行关键字、列关键字和时间戳共同定位。
+
+    在BigTable中，不仅可以&amp;lt;font color=orange&amp;gt;随意地增减行的数量&amp;lt;/font&amp;gt;，同在一定的约束条件下，还可以对&amp;lt;font color=orange&amp;gt;列的数量进行扩展&amp;lt;/font&amp;gt;。
+
+    
+
+14. BigTable数据模型的特点是：
+    （1）表中的**行关键字**可以是&amp;lt;font color=orange&amp;gt;任意的字符串&amp;lt;/font&amp;gt;。
+    （2）列族是由**列**关键字组成的集合，是&amp;lt;font color=orange&amp;gt;访问控制的基本单位&amp;lt;/font&amp;gt;。
+    （3）时间戳记录了BigTable中每一个数据项所包含的不同版本的数据的&amp;lt;font color=orange&amp;gt;时间标识&amp;lt;/font&amp;gt;。
+
+    
+
+    
+
+    
+
+15. 并行数据库系统结构
+
+    &amp;gt; 1、&amp;lt;font color=orange&amp;gt;共享内存&amp;lt;/font&amp;gt;结构：通过互联网共享一个公共的主存储器，与单机系统的区别是以多个处理器代替单个处理器并行执行事务，通过共享内存传送消息和数据，实现对一个或多个磁盘的访问。(**共享内存结构**与**单机系统**的差别只是以&amp;lt;font color=orange&amp;gt;**多个处理器代替单处理器**&amp;lt;/font&amp;gt;)
+    &amp;gt;
+    &amp;gt; 2、&amp;lt;font color=orange&amp;gt;共享磁盘&amp;lt;/font&amp;gt;结构：所有处理机拥有&amp;lt;font color=purple&amp;gt;独立的主存储器&amp;lt;/font&amp;gt;/&amp;lt;font color=purple&amp;gt;内存&amp;lt;/font&amp;gt;，通过互联网共享磁盘。
+    &amp;gt;
+    &amp;gt; (没有共享内存，所有各处理器都有独立的内存/主储存器)
+    &amp;gt;
+    &amp;gt; PS:主存储器就是内存。
+    &amp;gt;
+    &amp;gt; 3、&amp;lt;font color=orange&amp;gt;无共享结构&amp;lt;/font&amp;gt;：每个处理机拥有&amp;lt;font color=purple&amp;gt;独立&amp;lt;/font&amp;gt;的&amp;lt;font color=purple&amp;gt;主存储器&amp;lt;/font&amp;gt;和&amp;lt;font color=purple&amp;gt;磁盘&amp;lt;/font&amp;gt;，&amp;lt;font color=red&amp;gt;**不**共享任何资源&amp;lt;/font&amp;gt;。
+    &amp;gt;
+    &amp;gt; （无共享结构通过&amp;lt;font color=green&amp;gt;最小化共享资源来降低资源竞争的概率&amp;lt;/font&amp;gt;	）
+    &amp;gt;
+    &amp;gt; 4、&amp;lt;font color=orange&amp;gt;层次结构&amp;lt;/font&amp;gt;：前三种的结合，分两层，**顶层**&amp;lt;font color=orange&amp;gt;无共享结构&amp;lt;/font&amp;gt;，**底层**&amp;lt;font color=orange&amp;gt;共享内存&amp;lt;/font&amp;gt;或&amp;lt;font color=orange&amp;gt;共享磁盘&amp;lt;/font&amp;gt;。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&#34;数据仓库与数据挖掘&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#数据仓库与数据挖掘&#34;&gt;#&lt;/a&gt; 数据仓库与数据挖掘&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;font color=orange&gt;快照&lt;/font&gt;是关于指定数据集合的一个完全可用拷贝，该拷贝包括相应数据在某个时间点（拷贝开始的时间点）的映像。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;快照可以是其所表示  的数据的一个&lt;font color=green&gt;副本&lt;/font&gt;，也可以是数据的一个&lt;font color=green&gt;复制品&lt;/font&gt;，适合&lt;font color=red&gt;更新变化量少&lt;/font&gt;的数据。。&lt;/p&gt;
+&lt;p&gt;它反映的是某个时间点内的数据，该数据具有&lt;font color=red&gt;不可以改变性&lt;/font&gt;。&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;​    数据仓库中数据特征包括&lt;font color=orange&gt;面向主题&lt;/font&gt;性，&lt;font color=orange&gt;集成&lt;/font&gt;性，&lt;font color=orange&gt;不可更新&lt;/font&gt;性，&lt;font color=orange&gt;时间&lt;/font&gt;特性。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;分类器&lt;/strong&gt;的构造方法有&lt;font color=orange&gt;统计&lt;/font&gt;方法、&lt;font color=orange&gt;机器学习&lt;/font&gt;方法、&lt;font color=orange&gt;神经网络&lt;/font&gt;方法等。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;​	统计方法包括贝叶斯法和非参数法；&lt;/p&gt;
+&lt;p&gt;​	机器学习方法包括决策树法和规则归纳法；&lt;/p&gt;
+&lt;p&gt;​	神经网络方法主要是 BP 算法。&lt;/p&gt;
+&lt;p&gt;​	K-means 属于聚类算法。&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;graph TD;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	分类器 --&amp;gt; 统计方法 --&amp;gt; 贝叶斯法&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;				统计方法 --&amp;gt; 非参数法&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	分类器--&amp;gt;机器学习方法 --&amp;gt;决策树&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;			机器学习方法 --&amp;gt;规则归纳法&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	分类器--&amp;gt;神经网络方法&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;聚类方法&lt;/strong&gt;包括&lt;font color=orange&gt;统计&lt;/font&gt;方法、&lt;font color=orange&gt;机器学习&lt;/font&gt;方法、&lt;font color=orange&gt;神经网络&lt;/font&gt;方法和&lt;font color=orange&gt;面向数据库&lt;/font&gt;的方法等。****&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;在机器学习中，&lt;strong&gt;聚类&lt;/strong&gt;称作&lt;strong&gt;无监督&lt;/strong&gt;（或无教师）归纳。&lt;/p&gt;
+&lt;p&gt;与分类相比，分类的例子或数据对象均有类别标记，&lt;/p&gt;
+&lt;p&gt;而聚类的例子则没有标记，需要由聚类算法来自动确定。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;聚类&lt;/strong&gt;的核心就是将一个&lt;font color=orange&gt;数据集&lt;/FONT&gt;中的&lt;font color=orange&gt;数据&lt;/FONT&gt;进行&lt;font color=orange&gt;分组&lt;/font&gt;，使得每一组内的数据尽可能的相似而不同组间的数据尽可能不同。&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;元数据&lt;/strong&gt;是关于数据的数据，或者叫做&lt;font color=orange&gt;描述数据的数据&lt;/font&gt;，它描述了数据的结构、内容、链和索引等项的内容。题干中只有 IV 和 VI 符合定义，其余的内容都是用户数据。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;数据仓库四个特点：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;1、&lt;font color=orange&gt;主题性&lt;/font&gt;：从实际需求出发，具有较高的抽象性，数据可用性比&lt;font color=red&gt;OLTP 较为宽松&lt;/font&gt;。&lt;br&gt;
+2、&lt;font color=orange&gt;集成性&lt;/font&gt;：需要将数据抽取、转换、清理、装载。&lt;br&gt;
+3、&lt;font color=orange&gt;稳定性&lt;/font&gt;：是面向决策支持应用主题的，数据进入数据仓库后&lt;font color=red&gt;不允许修改&lt;/font&gt;。&lt;br&gt;
+4、&lt;font color=orange&gt;动态性&lt;/font&gt;：数据需要&lt;font color=red&gt;定期更新&lt;/font&gt;。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;数据仓库：面向主题、不可直接修改、批量访问。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;数据仓库的特性包括面向主题性、集成性、不可更新性和时间特性。 其中不可更新并不意味着不再向数据仓库追加新的数据，只是一般不对数据仓库内的原始数据进行修改，数据的载入和更新通常是以批量方式进行操作。 时间特性是指随着时间的推移，部分数据不再需要，将会被删除，但不是像操作型数据库那样直接删除。&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;粒度&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;粒度越大，综合程度越高；&lt;/p&gt;
+&lt;p&gt;粒度越小，综合程度越低。&lt;/p&gt;
+&lt;p&gt;粒度影响数据仓库的数据量以及系统能回答的查询的类型。&lt;/p&gt;
+&lt;p&gt;粒度越小，细节程度越高，能回答的查询就越多。&lt;/p&gt;
+&lt;p&gt;但是，因为需要存储低粒度级的细节数据，数据量就比较大，空间代价也大。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;❗ ❗ ❗未完待续。。。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
  ]]></description>
         </item>
     </channel>
